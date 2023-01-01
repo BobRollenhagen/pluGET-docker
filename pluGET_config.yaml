@@ -1,0 +1,26 @@
+#
+# Configuration File for pluGET
+# https://www.github.com/Neocky/pluGET 
+#
+
+# What should be used for the connection (local, sftp, ftp)
+Connection: local
+
+Local:
+  PathToPluginFolder: /data/plugins
+  # If a different folder should be used to store the updated plugins change to (True/False) and the path below
+  SeperateDownloadPath: false
+  PathToSeperateDownloadPath: /data/plugins/updated
+
+Remote:
+  Server: 0.0.0.0
+  Username: user
+  Password: password
+  # If a different Port for SFTP/FTP will be used
+  SFTP_Port: 22
+  FTP_Port: 21
+  # If a different folder should be used to store the updated plugins change to (True/False) and the path below
+  SeperateDownloadPath: false
+  PathToSeperateDownloadPath: /plugins/updated
+  # Change the path below if the plugin folder path is different on the SFTP/FTP server (Change only if you know what you are doing)
+  PluginFolderOnServer: /plugins
