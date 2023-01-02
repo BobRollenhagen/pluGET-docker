@@ -16,7 +16,7 @@ By default, all files will be owned by a non-root user 9001:9001 for compatibili
 
 ```sh
 -e PUID=XXX
--e GPID=XXX
+-e PGID=XXX
 ```
 
 ## Docker Compose
